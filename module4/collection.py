@@ -16,4 +16,4 @@ authors = {
 
 for author,date in authors.items():
     print(author + " died in "+ date)
-
+    #print("%s" % author + " died in " + "%s." % date)
