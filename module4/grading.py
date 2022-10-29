@@ -39,9 +39,9 @@ if avg >= 90:
     letter_grade = "A"
 elif avg >= 80 and avg < 90:
     letter_grade = "B"
-elif avg > 69 and avg < 80:
+elif avg > 69 and avg < 80:   #elif avg >= 70 and avg < 80: according to the specification
     letter_grade = "C"
-elif avg <= 69 and avg >= 65:
+elif avg <= 69 and avg >= 65: #elif avg >= 60 and avg < 70:
     letter_grade = "D"
 else:
     letter_grade = "F"
