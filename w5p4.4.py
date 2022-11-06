@@ -16,6 +16,11 @@ sides = int(input("Enter the number of sides: "))
 length = int(input("Enter the length of the side: "))
 #this gets the length of each sides
 col = input("Enter the color of your polygon: ")
+
+#this gets the length of each sides
+line_col = input("Enter the color of lines of your polygon: ")
+t.pencolor(line_col)
+
 #this gets the color of fill
 t.fillcolor(col)
 #this fills the color
