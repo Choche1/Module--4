@@ -8,4 +8,5 @@ for i in list:
     print(i)
 for i in list:
 #this indicates that you multiply a number and its cube
-    print(i**3)
+   #print(i**3)
+   print(i, i**3) #print number and its cube
